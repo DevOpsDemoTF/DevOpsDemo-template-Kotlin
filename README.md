@@ -16,3 +16,4 @@ Micro-service template to use with my [DevOpsDemo](https://github.com/butzist/De
 * API/integration tests with docker-compose
 
 ### Links ###
+* [Java multi-stage Docker build](http://paulbakker.io/java/docker-gradle-multistage/)
