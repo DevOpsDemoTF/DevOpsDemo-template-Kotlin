@@ -16,11 +16,16 @@ ext {
 repositories {
     mavenCentral()
     jcenter()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     implementation "io.ktor:ktor-server-netty:$ktor_version"
+    implementation "io.prometheus:simpleclient:0.6.0"
+    implementation "com.fasterxml.jackson.core:jackson-databind:2.9.3"
+    implementation "io.prometheus:simpleclient_httpserver:0.6.0"
+    implementation "ch.qos.logback.contrib:logback-json-classic:0.1.5"
     testImplementation "org.junit.jupiter:junit-jupiter:$junit_version"
 }
 

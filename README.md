@@ -17,3 +17,4 @@ Micro-service template to use with my [DevOpsDemo](https://github.com/butzist/De
 
 ### Links ###
 * [Java multi-stage Docker build](http://paulbakker.io/java/docker-gradle-multistage/)
+* [Structured logging with JSON](https://stackoverflow.com/questions/54934658/how-to-write-slf4j-over-logback-logs-as-json)
