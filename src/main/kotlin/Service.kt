@@ -1,8 +1,8 @@
 package service
 
-import io.ktor.application.Application
 import io.ktor.server.engine.embeddedServer
 import io.ktor.server.netty.Netty
+import service.app.appModule
 
 fun main(args: Array<String>) {
     val config = Config()
