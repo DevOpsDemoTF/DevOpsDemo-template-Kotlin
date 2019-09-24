@@ -10,7 +10,7 @@ resources:
   - repo: self
 
 variables:
-  name: 'devopsdemo-template-java'
+  name: 'devopsdemo-template-kotlin'
   tagname: 'latest'
 
 stages:
